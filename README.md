@@ -168,6 +168,7 @@
 
 ### Benchmarks & Metrics
 
+- [RVCBench](https://github.com/Nanboy-Ronan/RVCBench) — Combines conventional voice-cloning utility evaluation with tests of reference noise, compression, anti-cloning protection, long-form generation and multilingual/cross-lingual robustness. Provides evaluation datasets and a pip-installable toolkit with seven automatic metrics for scoring model outputs (2026).
 - [Seed-TTS-eval](https://github.com/BytedanceSpeech/seed-tts-eval) — ByteDance's 3,000-sample objective test set (EN Common Voice + ZH DiDiSpeech-2) with WER + speaker-SIM scripts; the de-facto standard for zero-shot WER/SIM reporting (2024).
 - [TTSDS — Text-to-Speech Distribution Score](https://arxiv.org/abs/2407.12707) — A reference-free metric scoring distributional closeness to real speech; benchmarked 35 systems with strong human correlation (2024).
 - [TTSDS2: Resources and Benchmark for Evaluating Human-Quality TTS Systems](https://arxiv.org/abs/2506.19441) — Robust multilingual successor across 14 languages with 11k+ MOS ratings; the only one of 16 metrics it tested to correlate >0.50 in every domain (2025).
