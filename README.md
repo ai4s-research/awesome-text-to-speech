@@ -70,6 +70,7 @@
 - [Higgs Audio v2](https://github.com/boson-ai/higgs-audio) — Boson AI foundation model doing multi-speaker dialogue, humming, and simultaneous speech+music zero-shot — unusually broad generation surface (2025).
 - [VibeVoice](https://github.com/microsoft/VibeVoice) — Microsoft's open long-form TTS (up to ~90 min, 4 speakers) via next-token diffusion, MIT, ICLR 2026 Oral; the open frontier for long multi-speaker audio (2026).
 - [Sesame CSM](https://github.com/SesameAILabs/csm) — The viral conversational speech model (Llama backbone over Mimi codes), Apache-2.0; the open reference for natural conversational TTS (2025).
+- [Voxtral TTS: Mistral's Open-Weight Text-to-Speech Model](https://arxiv.org/abs/2603.25551) — 4B hybrid AR (Ministral-3B) semantic tokens + flow-matching acoustics over a custom hybrid VQ/FSQ codec; 68% preference win over ElevenLabs Flash v2.5 with ~90 ms time-to-first-audio in 9 languages (CC BY-NC) (2026).
 - [Qwen3-Omni](https://github.com/QwenLM/Qwen3-Omni) — Leading open omni LLM with real-time speech output across many languages, Apache-2.0 (2025).
 - [GLM-4-Voice](https://github.com/zai-org/GLM-4-Voice) — A 9B end-to-end open speech LLM (speech-in / speech-out), Apache-2.0 (2024).
 - [Kimi-Audio](https://github.com/MoonshotAI/Kimi-Audio) — Open universal audio foundation model that understands, generates, and converses in one stack (2025).
