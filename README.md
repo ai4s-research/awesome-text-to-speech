@@ -94,6 +94,7 @@
 - [Chatterbox](https://github.com/resemble-ai/chatterbox) — Resemble AI's MIT-licensed open SoTA model: first to ship built-in exaggeration control plus a Perth neural watermark on every output, at just 0.5B (2025).
 - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) — 5 s zero-shot / 1-min few-shot cloning with a huge community ecosystem; the practical go-to for hobbyist voice cloning (2024).
 - [GLM-TTS: Controllable & Emotion-Expressive Zero-shot TTS with Multi-Reward Reinforcement Learning](https://arxiv.org/abs/2512.14291) — Zhipu's two-stage AR-LLM + flow-matching cloner post-trained with GRPO over pronunciation, speaker-similarity, and prosody rewards; MIT weights plus Apache-2.0 code make it one of the few fully commercial-open flagships, and the strongest open Chinese cloner (2025).
+- [FireRedTTS3: Unified Speech Generation and Editing with Semantically Enriched Speech Representations](https://arxiv.org/abs/2608.17492) — Xiaohongshu; generates over *continuous* speech features regularized by a frozen audio encoder as a "semantic teacher", sidestepping the error accumulation of AR decoding over discrete tokens; the Base variant tops Seed-TTS-Eval intelligibility/speaker-similarity while Instruct unifies cloning, natural-language voice design, and speech editing in one open stack (2026).
 
 ## 🎭 Expressive, Controllable & Emotional TTS
 
