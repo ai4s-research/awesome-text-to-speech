@@ -79,6 +79,7 @@
 - [Kimi-Audio](https://github.com/MoonshotAI/Kimi-Audio) — Open universal audio foundation model that understands, generates, and converses in one stack (2025).
 - [MiMo-Audio](https://github.com/XiaomiMiMo/MiMo-Audio) — Xiaomi's 7B speech LM with few-shot speech generation and instruct-TTS (2025).
 - [VoxCPM](https://huggingface.co/openbmb/VoxCPM1.5) — Tokenizer-free continuous TTS on MiniCPM-4, Apache-2.0; argues against discrete codecs for naturalness (2025).
+- [VoxCPM2 Technical Report](https://arxiv.org/abs/2606.06928) — OpenBMB's 2B tokenizer-free successor, going fully codec-free over continuous AudioVAE latents; adds natural-language voice design and controllable cloning across 30 languages at 48 kHz, Apache-2.0 with llama.cpp/vLLM-Omni deployment (2026).
 
 ## 🧬 Voice Cloning & Speaker Adaptation
 
