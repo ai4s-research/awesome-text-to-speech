@@ -201,6 +201,7 @@
 - [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) — Quality-first autoregressive multi-voice TTS; slow but historically influential for expressive cloning (2022).
 - [suno-ai/bark](https://github.com/suno-ai/bark) — Transformer text-to-audio generating speech plus nonverbal sounds/music; MIT-licensed and widely forked (2023).
 - [OHF-Voice/piper1-gpl](https://github.com/OHF-Voice/piper1-gpl) — Actively-maintained successor to Piper, a fast fully-local neural TTS engine (the legacy `rhasspy/piper` is archived) (ongoing).
+- [SuperClonica](https://superclonica.com/en/superclonica) — Apache-2.0 offline engine for the open-weight Supertonic 3 model (31 languages, ONNX Runtime on CPU or CUDA); same voice files, measured 1.6–1.7x faster than the stock runtime, pip and Docker (2026).
 
 ## 💼 Commercial & Closed Systems
 
