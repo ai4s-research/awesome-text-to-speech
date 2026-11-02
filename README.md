@@ -117,6 +117,7 @@
 - [Dia-1.6B](https://github.com/nari-labs/dia) — Nari Labs; generates whole multi-speaker dialogue in one pass with nonverbals, an unusually conversational-first open model (2025).
 - [Orpheus-TTS](https://github.com/canopyai/Orpheus-TTS) — Canopy; a Llama-3B backbone with tag-guided emotion and ~100-200 ms streaming, Apache-licensed LLM-as-TTS (2025).
 - [EmotiVoice](https://github.com/netease-youdao/EmotiVoice) — NetEase; 2000+ voices with prompt-based emotion tags, an early and still-popular controllable open engine (2023).
+- [MisoTTS (Miso One)](https://github.com/MisoLabsAI/MisoTTS) — Miso Labs' 8B CSM-style RVQ Transformer (Llama backbone over Mimi codes) whose real differentiator is conditioning on prior audio as well as text, so it reacts to the speaker's tone mid-conversation; the most prominent open-weights bet on emotive, low-latency conversational speech (modified MIT, English-only) (2026).
 
 ## ⚡ Streaming, Real-time & Efficient TTS
 
