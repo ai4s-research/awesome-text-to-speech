@@ -138,6 +138,7 @@
 - [Pocket TTS (Kyutai)](https://github.com/kyutai-labs/pocket-tts) — Kyutai's codec-free Continuous Audio Language Model (CALM, ICLR 2026) shrinks zero-shot cloning to ~100M parameters running ~6x realtime on two CPU cores; v4.0 cuts it further to 18.2M/6.9M/1.9M variants, with an active Rust/iOS port ecosystem (MIT code, CC-BY-4.0 weights) (2026).
 - [Hertz-dev](https://github.com/Standard-Intelligence/hertz-dev) — The first open base full-duplex audio model (~120 ms theoretical latency); a foundation for two-way conversational speech (2024).
 - [NeuTTS Air](https://huggingface.co/neuphonic/neutts-air) — On-device, CPU-real-time TTS paired with NeuCodec; the practical edge-deployment option (2025).
+- [Ito](https://github.com/lokutor-ai/ito) — A 3.3M-parameter streaming English TTS that runs on an ESP32-S3 microcontroller (no cloud, no accelerator): the first 125 ms chunk is ready about 180 ms after phoneme ids on one measured board, with phonemization on the host; GPL-3.0 code, gated non-commercial CC BY-NC-SA 4.0 weights (2026).
 
 ## 🌍 Multilingual & Low-resource TTS
 
