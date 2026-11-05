@@ -149,6 +149,7 @@
 - [Habibi: Laying the Open-Source Foundation of Unified-Dialectal Arabic Speech Synthesis](https://arxiv.org/abs/2601.13802) — Open system covering 30+ Arabic spoken varieties; rare dialect-level coverage for a major but heavily fragmented language family (2026).
 - [OpenBibleTTS: Large-Scale Speech Resources and TTS Models for Low-Resource Languages](https://arxiv.org/abs/2606.09553) — Releases datasets, alignments, and trained TTS across 37 underrepresented languages (strong on African languages); the most substantial low-resource drop of 2026 so far (2026).
 - [UR-BERT: Scaling Text Encoders for Massively Multilingual TTS Through Universal Romanization and Speech Token Prediction](https://arxiv.org/abs/2606.11681) — Interspeech 2026; scales a text encoder to 495 languages by unifying all writing systems into shared Romanization — a fresh attack on the multilingual front-end bottleneck (2026).
+- [Phir Hera Fairy / IndicF5: An English Fairytaler is a Strong Faker of Fluent Speech in Low-Resource Indian Languages](https://arxiv.org/abs/2505.20693) — AI4Bharat / IIT-Madras; fine-tunes F5-TTS on ~1,400 hours across 11 Indic languages by expanding its vocab with 685 native-script tokens (no G2P), enabling voice cloning, code-mixed synthesis, and zero-resource generation for unseen languages like Bhojpuri and Tulu (MIT) (2025).
 
 ## 🔊 Neural Audio Codecs
 
