@@ -177,6 +177,7 @@
 ## 🎤 Singing Voice Synthesis
 
 - [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://github.com/openvpi/DiffSinger) — The canonical open singing-voice synthesis system (shallow-diffusion acoustic model); the de-facto base for the open SVS ecosystem (2022).
+- [SoulX-Singer: Towards High-Quality Zero-Shot Singing Voice Synthesis](https://github.com/Soul-AILab/SoulX-Singer) — Zero-shot singing for unseen singers with both F0-contour and MIDI-score conditioning, trained on 42k+ hours across Mandarin, English, and Cantonese, plus lyric editing and cross-lingual timbre cloning; the finetuned SoulX-Singer-SVC variant does transcription-free singing voice conversion, and an open eval dataset ships alongside (Apache-2.0) (2026).
 
 ## 📊 Benchmarks & Datasets
 
