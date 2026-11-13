@@ -238,6 +238,7 @@ Closed but field-defining — listed for completeness; no weights, API-only.
 - [OpenAI gpt-realtime / next-gen audio](https://openai.com/index/introducing-our-next-generation-audio-models/) — OpenAI's steerable speech-to-speech and `gpt-4o-mini-tts` models powering real-time voice agents (2025).
 - [Cartesia Sonic 3](https://www.cartesia.ai/sonic) — State-space-model TTS with sub-100 ms streaming; the latency leader for voice agents (2025).
 - [SpeechifyAI Simba 3.2](https://speechify.ai/models) — Streaming-native English TTS with SSML prosody and emotion control, with Simba 3.0 covering six languages; Coval's independent benchmark measured a 106 ms median time to first audio, the range real-time voice agents need (2026).
+- [Gradium](https://docs.gradium.ai/guides/text-to-speech) — Bidirectional streaming TTS lets a voice agent send LLM-generated text and receive audio concurrently, so playback can begin before the reply is complete; supports English, French, German, Spanish and Portuguese (2026).
 
 ## 📑 Related Awesome Lists
 
