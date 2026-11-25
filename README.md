@@ -166,6 +166,7 @@
 - [Maya 2 Native](https://huggingface.co/maya-research/maya2-native) — Maya Research's Apache-2.0 streaming TTS covering 11 Indic languages plus English: 24 kHz output in 80 ms frames, 20 built-in voices, and zero-shot cross-lingual cloning from short references on a 2.5B Qwen3-based stack; ranked #2 for Hindi among real-time models on VoiceArena within weeks of release — the strongest fully-permissive Indic option since IndicF5 (2026).
 - [Svara TTS v1](https://huggingface.co/kenpath/svara-tts-v1) — Kenpath's Apache-2.0 Indic TTS covering 18 Indian languages plus Indian English — broader fully-permissive Indic coverage than Maya 2 or IndicF5 — with zero-shot cloning, streaming, code-switching, and 12 inline emotion tags on an Orpheus-style Llama-3B + LoRA stack over SNAC tokens; ships with a Docker/vLLM inference toolkit (2025).
 - [Magpie TTS Multilingual 357M](https://huggingface.co/nvidia/magpie_tts_multilingual_357m) — NVIDIA's compact open-weights multilingual TTS covering 12 languages in ~364M parameters with a frame-stacked streaming decoder over NanoCodec tokens: ~32 ms time-to-first-audio on a B200 and >300x realtime throughput, commercial-permissive under the NVIDIA Open Model License; the practical option when you need low-latency polyglot speech you can self-host, and the only sub-1B model in the Artificial Analysis open-weights top tier (2026).
+- [PAWP-TTS: Phoneme-Aware Weight Programming for Compact Bilingual English-Nepali Speech Synthesis](https://arxiv.org/abs/2611.29455) — A 1.5M-parameter (6 MB) non-autoregressive TTS for English, Nepali, and code-mixed speech, with a rule/lexicon bilingual frontend handling pronunciation so the tiny net only models acoustics — intelligible even at 281K parameters (1.1 MB). Fully open (Apache-2.0 code, CC BY 4.0 weights, demo, streaming ONNX) and a rare modern option for an underserved low-resource language (2026).
 
 ## 🔊 Neural Audio Codecs
 
@@ -234,7 +235,7 @@
 - [suno-ai/bark](https://github.com/suno-ai/bark) — Transformer text-to-audio generating speech plus nonverbal sounds/music; MIT-licensed and widely forked (2023).
 - [OHF-Voice/piper1-gpl](https://github.com/OHF-Voice/piper1-gpl) — Actively-maintained successor to Piper, a fast fully-local neural TTS engine (the legacy `rhasspy/piper` is archived) (ongoing).
 - [SuperClonica](https://superclonica.com/en/superclonica) — Apache-2.0 offline engine for the open-weight Supertonic 3 model (31 languages, ONNX Runtime on CPU or CUDA); same voice files, measured 1.6–1.7x faster than the stock runtime, pip and Docker (2026).
-- [AudioSmith](https://github.com/hehehai/AudioSmith) — AGPL-3.0 macOS app that runs Qwen3-TTS, Kokoro, Chatterbox Turbo, VoxCPM2, OmniVoice and dialogue models (SoulX-Podcast, MOSS-TTSD) natively on Apple silicon through MLX, with no Python; it adds voice cloning and design, M4B audiobooks, dubbing, an OpenAI-compatible local speech API and an MCP server, so it shows what these open models do on a laptop (2026).
+- [AudioSmith](https://github.com/hehehai/AudioSmith) — AGPL-3.0 macOS app (Go/Swift, no Python) running Qwen3-TTS, Kokoro, Chatterbox Turbo, VoxCPM2 and open dialogue models natively on Apple silicon via MLX; adds voice cloning, an OpenAI-compatible local speech API and an MCP server (2026).
 
 ## 💼 Commercial & Closed Systems
 
