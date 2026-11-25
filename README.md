@@ -234,6 +234,7 @@
 - [suno-ai/bark](https://github.com/suno-ai/bark) — Transformer text-to-audio generating speech plus nonverbal sounds/music; MIT-licensed and widely forked (2023).
 - [OHF-Voice/piper1-gpl](https://github.com/OHF-Voice/piper1-gpl) — Actively-maintained successor to Piper, a fast fully-local neural TTS engine (the legacy `rhasspy/piper` is archived) (ongoing).
 - [SuperClonica](https://superclonica.com/en/superclonica) — Apache-2.0 offline engine for the open-weight Supertonic 3 model (31 languages, ONNX Runtime on CPU or CUDA); same voice files, measured 1.6–1.7x faster than the stock runtime, pip and Docker (2026).
+- [AudioSmith](https://github.com/hehehai/AudioSmith) — AGPL-3.0 macOS app that runs Qwen3-TTS, Kokoro, Chatterbox Turbo, VoxCPM2, OmniVoice and dialogue models (SoulX-Podcast, MOSS-TTSD) natively on Apple silicon through MLX, with no Python; it adds voice cloning and design, M4B audiobooks, dubbing, an OpenAI-compatible local speech API and an MCP server, so it shows what these open models do on a laptop (2026).
 
 ## 💼 Commercial & Closed Systems
 
