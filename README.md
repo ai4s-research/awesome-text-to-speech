@@ -153,6 +153,7 @@
 - [NeuTTS Air](https://huggingface.co/neuphonic/neutts-air) — On-device, CPU-real-time TTS paired with NeuCodec; the practical edge-deployment option (2025).
 - [Phonon 31M (xn-ptts)](https://github.com/gradium-ai/xn-ptts) — Gradium's (Kyutai alumni) 31M-parameter, 64 MB Apache-2.0 English TTS that starts speaking in ~7 ms on a laptop CPU and runs 3.7x realtime on a Raspberry Pi 5, while ranking top-5 on the Artificial Analysis open-weights leaderboard; a Rust-first runtime with WASM/WebGPU, mobile and NPU ports plus Ollama/LM Studio/Pipecat integrations makes it the current default for on-device voice agents (2026).
 - [Ito](https://github.com/lokutor-ai/ito) — A 3.3M-parameter streaming English TTS that runs on an ESP32-S3 microcontroller (no cloud, no accelerator): the first 125 ms chunk is ready about 180 ms after phoneme ids on one measured board, with phonemization on the host; GPL-3.0 code, gated non-commercial CC BY-NC-SA 4.0 weights (2026).
+- [tiny-voca](https://github.com/n4ze3m/tiny-voca) — A 4.5M-parameter (18 MB) two-voice English TTS trained from scratch in 7.7 hours on a single RTX 4090, running ~70x realtime on four CPU threads and in the browser via ONNX or dependency-free JS; the full code + weights + dataset + training recipe are Apache-2.0, and the open recipe has already spawned community retrains for German, Dutch, Italian, Turkish, Korean and more — a Kokoro-style "train your own tiny TTS" moment (2026).
 
 ## 🌍 Multilingual & Low-resource TTS
 
